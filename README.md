@@ -1,5 +1,5 @@
 # Spring_Security_Basic_Auth
-Basic authentication in Spring Security leverages the built-in `httpBasic()` configuration within the security chain. This challenges users for their username and password when accessing protected resources. Here's the flow:
+Basic authentication in Spring Security leverages the built-in `httpBasic()` configuration within the security chain. This challenges users for their username and password when accessing protected resources.Here's the flow:
 
 1. **User Requests a Resource:** When a user tries to access a secured resource, Spring Security's `BasicAuthenticationFilter` intercepts the request.
 2. **Credentials Extraction:** This filter extracts the username and password from the HTTP Basic authorization header (encoded in Base64).
